@@ -5,6 +5,7 @@ import ProtectedLayouts from "../layouts/ProtectedLayout";
 
 const Home = lazy(() => import("../pages/Home/Home"));
 const Login = lazy(() => import("../pages/Auth/Login"));
+const Signup = lazy(() => import("../pages/Auth/Signup"));
 const NotFound = lazy(() => import("../pages/NotFound/NotFound"));
 
 export default function AppRoutes() {
@@ -13,6 +14,7 @@ export default function AppRoutes() {
           {/* public layout */}
           <Route path="/" element={<PublicLayout />}>
             <Route path="login" exact element={<Login />} />
+            <Route path="signup" exact element={<Signup />} />
           </Route>
           {/* protected layout */}
           <Route path="/" element={<ProtectedLayouts />}>
