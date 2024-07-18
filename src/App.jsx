@@ -4,7 +4,6 @@ import Loader from "./components/Loader/Loader";
 import { ToastContainer } from "react-toastify";
 import { UserProvider } from "./UserContext";
 import "react-toastify/dist/ReactToastify.css";
-import "./App.css";
 
 export default function App() {
   return (
