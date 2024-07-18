@@ -50,7 +50,7 @@ export default function LoginForm() {
       <Helmet>
         <title>Login</title>
       </Helmet>
-      <main className="flex flex-col gap-8 w-80 md:w-96 h-auto p-8 bg-gray-900 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 m-4 shadow-2xl">
+      <main className="font-inter flex flex-col gap-8 w-80 md:w-96 h-auto p-8 bg-gray-900 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 m-4 shadow-2xl">
         <section className="flex flex-col gap-2">
           <div className="text-2xl text-white font-semibold">Login Form</div>
           <div className=" border-white border-2 w-20"></div>

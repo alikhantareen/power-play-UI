@@ -8,7 +8,10 @@ export default {
     extend: {
       backgroundImage: {
         'auth-background': "url('./src/assets/auth-background.jpg')",
-      }
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
